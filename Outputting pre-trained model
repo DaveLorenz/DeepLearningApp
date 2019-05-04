@@ -1,5 +1,5 @@
 
-Note: After training a deep learning model in keras, I output the weights and structure of this pre-trained model (wordCNNmodel). The python code to do this is below.
+Note: After training a deep learning model in keras, I output the weights and structure of this pre-trained model (wordCNNmodel). The python code to do this is below. The h5 and json files in this folder are saved from the code below.
 
 #For production model
 #Save the model (for production)
