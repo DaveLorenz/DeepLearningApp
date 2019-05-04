@@ -1,0 +1,11 @@
+
+Note: After training a deep learning model in keras, I output the weights and structure of this pre-trained model (wordCNNmodel). The python code to do this is below.
+
+#For production model
+#Save the model (for production)
+# serialize model to JSON
+model_json = wordCNNModel.to_json()
+with open("model.json", "w") as json_file:
+    json_file.write(model_json)
+# serialize weights to HDF5
+wordCNNModel.save_weights("model.h5")
