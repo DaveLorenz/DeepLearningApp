@@ -8,7 +8,7 @@ The steps are as follows:
 
 1. Train a prediction model (not in this repository)
 
-2. Run the code "Outputting pre-trained model" to save model weights as h5 file and model framework as a json file. This way you don't have to train the model each time someone uses the application.
+2. Run the python code "Outputting pre-trained model" after training your model to save model weights as h5 file and model framework as a json file. This way you don't have to train the model each time someone uses the application.
 
 3. Get your Flask app running locally via the main (for local run) file using Flask. Flask allows python to communicate with html files via a "templates" folder saved in the same directory (as is it structured in this repository). Watch the videos linked below for more info. These explain the application of Flask to deep learning keras models very well.
 
