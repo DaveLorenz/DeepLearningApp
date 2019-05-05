@@ -91,7 +91,7 @@ def predict():
         #return prediction in new page
         return render_template('prediction.html', prediction=prediction)
     else:
-        return render_template("search_Page.html")   
+        return render_template("search_page.html")   
 
 
 # Note: This code likely will return error message. Follow instructions below to correct error.
