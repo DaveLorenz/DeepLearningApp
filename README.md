@@ -19,14 +19,10 @@ https://www.youtube.com/watch?v=IIi6e5oDZ68 (interacting HTML with Flask)
 Note, the python code below interacts Flask with HTML. More specifically, when the user clicks a submit button on an HTML form, POST sends the id text_entered to Flask/python using request.form.get. text_entered is an id that contains the text the user enters into HTML. This text becomes textData in python. The pre-trained loaded.model generates a prediction, and render_template loads the prediction.html page and sends this prediction to HTML as prediction. In prediction.html, this probability is referred to as {{ prediction }}. When the application is first run, prior to posted, render_template loads the first page: search_page.html.
 
 
-@app.route('/', methods=['GET','POST'])
-
-def predict():
-
-    #whenever the predict method is called, we're going
-    
+    @app.route('/', methods=['GET','POST'])
+    def predict():
+    #whenever the predict method is called, we're going    
     #to input the user entered text into the model
-    
     #and return a prediction
     
     if request.method=='POST':
