@@ -2,7 +2,7 @@
 
 This is the code used to create the following page: http://deeplearningade.appspot.com/
 
-This was a school project in the UVA MSBA where we first used keras to create a deep learning model. The model used for this prediction engine was a word CNN without pre-trained embeddings. The application is meant to read user-entered text explaining an adverse reaction to drugs and return a probability of the event being severe. We've incorporated it into our Word Press website: http://t6tern.wpengine.com/?page_id=296.
+This was a school project in the UVA MSBA where we first used keras to create a deep learning model. The model used for this prediction engine was a word CNN without pre-trained embeddings. The application is meant to read user-entered text explaining an adverse reaction to drugs and return a probability of the event being severe. We've incorporated it into our Word Press website: https://t6tern.wpengine.com/ 
 
 The steps are as follows:
 
