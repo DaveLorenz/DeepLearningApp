@@ -40,4 +40,6 @@ Note, the python code below interacts Flask with HTML. More specifically, when t
 
 https://www.youtube.com/watch?v=RbejfDTHhhg
 
+Note that you will run the following commands in the cloud to get this running: (1) cd (name of folder) (2) gcloud app deploy.
+
 Happy building! Please contact me if you'd like any help debugging or have any questions.
