@@ -36,7 +36,7 @@ Note, the python code below interacts Flask with HTML. More specifically, when t
     else:    
         return render_template("search_page.html")  
 
-4. Follow the instructions in the video below to get your Flask app running via Google Cloud. The first year and $300 are free. You'll need to upload the following: (1) main.py (2) the templates folder (3) the yaml file, (4) the h5 file with weights, (5) the json file with model framework, (6) the tsv file to ensure your matrix has the same structure as the training matrices, (7) a requirement.txt file. Note, this requirement.txt file is not loaded to this repository due to security reasons. Please contact me for more information on this. In general, you want to list the library versions you relied upon such that Google Cloud can download these to the cloud (e.g., keras==2.2.4). You'll also need to specify the gunicorn version such that Google Cloud can connect to the Python web server to download the proper libraries utilized. 
+4. Follow the instructions in the video below to get your Flask app running via Google Cloud. The first year and $300 are free. You'll need to upload the following: (1) main.py (2) the templates folder (3) the yaml file, (4) the h5 file with weights, (5) the json file with model framework, (6) the tsv file to ensure your matrix has the same structure as the training matrices, (7) the requirement.txt file. Note that you need to specify the gunicorn version such that Google Cloud can connect to the Python web server to download the proper libraries utilized. 
 
 https://www.youtube.com/watch?v=RbejfDTHhhg
 
