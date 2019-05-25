@@ -4,6 +4,8 @@ This is the code used to create the following page: http://deeplearningade.appsp
 
 This was a school project in the UVA MSBA where we first used keras to create a deep learning model. The model used for this prediction engine was a word CNN without pre-trained embeddings. The application is meant to read user-entered text explaining an adverse reaction to drugs and return a probability of the event being severe. We've incorporated it into our Word Press website: https://t6tern.wpengine.com/ 
 
+The code in this repo creates the first two pages (severity entry page and return prediction page). We built off of these pages to create form entry pages, but I wanted to keep this code as simple as possible for others to learn from. 
+
 The steps are as follows:
 
 1. Train a prediction model (not in this repository)
